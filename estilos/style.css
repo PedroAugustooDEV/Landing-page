@@ -40,7 +40,7 @@ main {
 
 #imagem {
     display: block;
-    background: url(./imagens/img-login.jpg) no-repeat ;
+    background: url(../imagens/img-login.jpg) no-repeat ;
     background-size: cover;
     height: 260px;   
 }
