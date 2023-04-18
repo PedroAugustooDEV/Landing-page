@@ -5,6 +5,9 @@ azul escuro para versão mobile
 azul escuro: #010a1f
 azul claro: #94bccd
 */ 
+
+/* configurações Mobile First*/
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0px;
@@ -30,8 +33,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
-    height: 520px;
+    width: 270px;
+    height: 570px;
     border-radius: 15px;
     background-color: antiquewhite;
     overflow: hidden;
@@ -40,7 +43,7 @@ main {
 
 #imagem {
     display: block;
-    background: url(../imagem/areia.jpg) no-repeat ;
+    background: url(../imagem/areia.jpg) no-repeat;
     background-size: cover;
     height: 260px;   
 }
