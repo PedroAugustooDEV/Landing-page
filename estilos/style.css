@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+html {
+    width: 100vw;
+    height: 100vh
+}
+
+body {
+     /* background-image: linear-gradient(to bottom, rgb(6, 5, 20), #1e2152);*/
+    background-image: linear-gradient(to top, #010a1f, #94bccd);    
+}
