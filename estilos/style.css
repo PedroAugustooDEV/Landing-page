@@ -18,13 +18,23 @@ azul claro: #94bccd
 html, body {
     width: 100vw;
     height: 100vh;
-    background-color: #030f2d;    
+    background-image: linear-gradient(to top, #010a1f,#04729e);
+    /*background-color: #030f2d;*/    
 }
 
 main {
     position: absolute;
     width: 100vw;
     height: 100vh;
+}
+
+div#formulario > h1 {
+    font-size: 1.6em;
+}
+
+div#formulario > p {
+    font-size: 1em;
+    padding-top: 20px;
 }
 
 #login {
@@ -58,3 +68,32 @@ main {
     text-align: center;
 
 }
+
+label {
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+input {
+    font-size: .8em;
+    width: 175px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 30px;
+
+}
+
+/*teste do olho que mostra senha*/
+
+  
+.olho {
+    cursor: pointer;
+    left: 230px;
+    bottom: 90px;
+    position: absolute;
+    width: 20px;
+  }
+
+  
+
