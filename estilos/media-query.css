@@ -35,6 +35,12 @@ TV e telas extra grandes: 1201px e mais
         width: 55%;
         height: 100%;
     }
+
+    input {
+        width: 250px;
+    
+    }
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -59,4 +65,10 @@ TV e telas extra grandes: 1201px e mais
         width: 55%;
         height: 100%;
     }
+
+    input {
+        width: 250px;
+    
+    }
+
 }
