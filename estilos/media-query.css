@@ -13,3 +13,51 @@ TV e telas extra grandes: 1201px e mais
 
 */
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    html, body {
+        background-image: linear-gradient(to top, #010a1f,#04729e);
+    }
+
+    #login {
+        width: 90%;
+        height: 50%;
+    }
+
+    #imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    
+    html, body {
+        background-image: linear-gradient(to top, #010a1f,#04729e);
+    }
+
+    #login {
+        width: 900px;
+        height: 50%;
+    }
+
+    #imagem {
+        float: left;
+        width: 45%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 55%;
+        height: 100%;
+    }
+    
+}
