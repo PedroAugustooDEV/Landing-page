@@ -14,40 +14,23 @@
             <div id="imagem">
             </div>
             <div id="formulario">
-                <h1>login</h1>
+                <h1>LOGIN</h1>
                 <p>
-                    Faça login para ter acesso a plataforma. 
+                    please enter your login and password.
                 </p>
                 <form action="login.js" method="post"></form>
                 <p>
-                    <label for="ilogin">email:</label>
-                    <input type="email" id="ilogin" placeholder="user@gmail.com" required>
+                    <label for="ilogin"></label>
+                    <input type="email" id="ilogin" placeholder="Username" required>
                 </p>
-                <p>
-                    <label for="pass">Senha:</label>
-                    
-                    <input type="password" id="pass">
-                    <img src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
-
-                    <!--teste do olho que mostra senha-->
+                <p> 
+                    <label for="pass"></label>
+                    <input type="password" id="pass" placeholder="Password">
                 </p>
-                
+                <br>
+                    <input id="log" type="submit" value="logar">
             </div>
         </section>
     </main>
-    <script>
-            document.getElementById('olho').addEventListener('mousedown', function() {
-            document.getElementById('pass').type = 'text';
-            });
-
-            document.getElementById('olho').addEventListener('mouseup', function() {
-            document.getElementById('pass').type = 'password';
-            });
-
-            // Para que o password não fique exposto apos mover a imagem.
-            document.getElementById('olho').addEventListener('mousemove', function() {
-            document.getElementById('pass').type = 'password';
-            });
-    </script>
 </body>
 </html>

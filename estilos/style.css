@@ -9,7 +9,7 @@ azul claro: #94bccd
 /* configurações Mobile First*/
 
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -29,12 +29,15 @@ main {
 }
 
 div#formulario > h1 {
-    font-size: 1.6em;
+    font-size: 2.5em;
+    color: rgb(211, 210, 210);
+    font-weight: lighter;
 }
 
 div#formulario > p {
     font-size: 1em;
     padding-top: 20px;
+    color: rgb(255, 255, 255);
 }
 
 #login {
@@ -58,42 +61,32 @@ div#formulario > p {
     display: block;
     background: url(../imagem/areia.jpg) no-repeat;
     background-size: cover;
-    height: 260px;   
+    height: 220px;   
 
 }
 
 #formulario {
+    height: 100%;
+    background-color: #121212;
     display: block;
     padding: 10px;
     text-align: center;
 
 }
 
-label {
-    font-weight: bolder;
-    font-size: 1em;
-}
-
 input {
     font-size: .8em;
-    width: 175px;
+    width: 200px;
     text-align: center;
-    margin-top: 10px;
     padding: 7px;
-    border-radius: 30px;
-
+    border-radius: 50px;
+    background-color: #121212;
+    border: 2px solid rgb(2, 2, 142);
 }
 
-/*teste do olho que mostra senha*/
-
-  
-.olho {
-    cursor: pointer;
-    left: 230px;
-    bottom: 90px;
-    position: absolute;
-    width: 20px;
-  }
+#log {
+    
+}
 
   
 
