@@ -36,7 +36,7 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 1em;
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
     color: rgb(255, 255, 255);
 }
 
@@ -77,13 +77,13 @@ div#formulario > p {
 input {
     font-size: .9em;
     width: 210px;
-    font-weight: 700;
+    font-weight: 200;
     text-align: center;
     padding: 7px;
     border-radius: 50px;
     background-color: #121212;
-    border: 2px solid rgb(1, 1, 116);
-    color: rgb(3, 3, 137);
+    border: 2px solid rgb(17, 17, 78);
+    color: rgb(255, 255, 255);
 }
 
 #log {
@@ -94,19 +94,8 @@ input {
     padding: 10px;
 }
 
-#iuser:hover {
-    background-color: white;
-    transition: 1.7s;
-}
-
-#ipass:hover {
-    background-color: white;
-    transition: 1.7s;
-}
-
 #log:hover {
     transform: translate(-4px, -4px);
-
     transition: 1s;
 } 
 

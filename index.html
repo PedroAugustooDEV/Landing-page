@@ -18,17 +18,19 @@
                 <p>
                     please enter your login and password.
                 </p>
-                <form action="login.js" method="post" autocomplete="on"></form>
-                <p>
-                    <label class="pass" for="iuser"></label>
-                    <input type="email" id="iuser" placeholder="Username" required>
-                </p>
-                <p> 
-                    <label class="pass" for="ipass"></label>
-                    <input type="password" id="ipass" placeholder="Password" required min="8" max="16">
-                </p>
-                <br>
-                    <input id="log" type="submit" value="Login">
+                <form action="login.js" method="post" autocomplete="off">
+                    <p>
+                        <label class="pass" for="iuser"></label>
+                        <input type="email" id="iuser" placeholder="Username" required>
+                    </p>
+                    <br>
+                    <p> 
+                        <label class="pass" for="ipass"></label>
+                        <input type="password" id="ipass" placeholder="Password" minlength="8" maxlength="16">
+                    </p>
+                    <br>
+                        <input id="log" type="submit" value="Login">
+                </form>
             </div>
         </section>
     </main>

@@ -1,1 +1,1 @@
-não sei banco de dados :(
+não sei banco de dados   ;-;
